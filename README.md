@@ -1,4 +1,4 @@
-# Shopify WHOLESALE environment based on regular Shopify store back-end
+# Shopify WHOLESALE environment based on regular Shopify store back-end demo code
 
 The project is using [Apollo Client](http://dev.apollodata.com/) built with [React](https://facebook.github.io/react/) and [Monei Shopify API Node](https://github.com/MONEI/Shopify-api-node). This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
