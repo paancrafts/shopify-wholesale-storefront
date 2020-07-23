@@ -1,0 +1,65 @@
+{
+  "name": "react-js-buy",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "yarn": "1.22",
+    "npm": "6.13.4",
+    "node": "12.16.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.21",
+    "@fortawesome/free-solid-svg-icons": "^5.10.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "apollo-boost": "^0.1.4",
+    "apollo-link-context": "^1.0.8",
+    "apollo-link-http": "^1.5.4",
+    "axios": "^0.19.0",
+    "box-node-sdk": "^1.30.0",
+    "buffer": "^5.4.3",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "formik": "^1.5.8",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.1",
+    "heroku-ssl-redirect": "^0.0.4",
+    "mongoose": "^5.7.6",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.1",
+    "prop-types": "^15.6.1",
+    "react": "16.6",
+    "react-addons-create-fragment": "^15.6.2",
+    "react-apollo": "^2.1.4",
+    "react-art": "^16.3.2",
+    "react-country-region-selector": "^1.4.5",
+    "react-dom": "16.6",
+    "react-headroom": "^3.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.1.4",
+    "react-tippy": "^1.2.3",
+    "reactjs-popup": "^1.4.2",
+    "shopify-api-node": "^2.22.0",
+    "universal-cookie": "^4.0.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "yarn build"
+  },
+  "proxy": {
+    "/api/*": {
+      "target": "http://[::1]:8080"
+    }
+  }
+}
